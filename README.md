@@ -4,6 +4,7 @@
 基本环境：
   1. 需安装超图分割工具metis。
   2. 需安装libnuma和numactl。
+  3. 
 编译：
 
   gcc -o pthread_metis_numa pthread_metis_numa.c -lnuma -lpthread -lm -O3
